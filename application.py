@@ -1,6 +1,5 @@
-
 import streamlit as st
-from updated_main import predict, residuals, y_train, r2_train  # Import residuals and y_train for plotting
+from updated_main import predict, residuals, y_train, r2_train  # Ensure these are correctly imported
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -15,8 +14,8 @@ def add_bg_from_url():
              background-size: cover;
          }}
          </style>
-         """
-         unsafe_allow_html=True
+         """,
+         unsafe_allow_html=True  # Corrected line position
     )
 
 # Add the background image
